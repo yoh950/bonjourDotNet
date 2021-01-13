@@ -14,7 +14,7 @@ namespace bonjourDotNet
             string response = Console.ReadLine();
             if(response == "EST")
             {
-                Console.WriteLine("Vous etes tomber dans un ravin !! pas de chance");
+                Console.WriteLine("Vous etes tomber dans un trou !! pas de chance");
             }
             else if(response == "OUEST")
             {
