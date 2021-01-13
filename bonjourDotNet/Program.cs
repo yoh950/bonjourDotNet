@@ -20,13 +20,21 @@ namespace bonjourDotNet
             {
                 Console.WriteLine("Vous avez trouver deux entrer en face de vous");
                 Console.WriteLine("La fenetre ou la porte ??");
+                response = Console.ReadLine();
+                if(response == "porte")
+                {
+                    Console.WriteLine("Bonjour et bienvenue !! =D");
+                }
+                else
+                {
+                    Console.WriteLine("La fenetre est fermer !! Dommage...");
+                    Console.WriteLine("Vous aurez plus de chance la prochaine fois !! ");                }
             }
             else
             {
                 while (response != "EST")
                 {
-                    Console.WriteLine("EST ou OUEST ??");
-                    response = Console.ReadLine();
+                    Console.WriteLine("Vous n'avez pas fait le bon choix");
                 }
             }
            
